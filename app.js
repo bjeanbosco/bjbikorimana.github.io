@@ -60,7 +60,7 @@ function validateForm() {
         return false;
       }
       else{
-        alert("Sign up successful!")
+     document.getElementById('sign_up').innerHTML="Thank You for Sign up To my site!!";
         return true;
       }
   }
