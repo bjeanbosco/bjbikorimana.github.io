@@ -59,8 +59,10 @@ function validateForm() {
         alert("*** password should have atleast 8 character");
         return false;
       }
-      else{
-     document.getElementById('sign_up').innerHTML="Thank You for Sign up To my site!!";
+      else if(answer!="Piano"&&answer!="Coding"){
+    let Grateful= document.getElementById('sign_up').innerHTML="Thank You for Sign up To my site!!";
+         Grateful.style.color="white";
+          Grateful.style.background="maroon";
         return true;
       }
   }
