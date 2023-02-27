@@ -14,7 +14,7 @@ aTag.innerHTML="Learn More On Coding Courses";
 aTag.href="https://www.w3schools.com/";
 aTag.title="programing course";
 aTag.target="_blank";
-document.getElementById('piano').appendChild(aTag);
+document.getElementById('piano').innerHTML=aTag;
 Enroll.innerHTML="Enrolled"
   }
   else if(answer=="Piano"){
@@ -23,7 +23,7 @@ Tag.innerHTML="Learn More on Piano";
 Tag.href="https://www.youtube.com/shorts/-EWj_x5txNg";
 Tag.title="piano courses";
 Tag.target="_blank";
-document.getElementById('piano').appendChild(Tag);
+document.getElementById('piano').innerHTML=Tag;
 Enroll.innerHTML="Enrolled"
   }
   else if(answer!="Piano"&&answer!="Coding"){
