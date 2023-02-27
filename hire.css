@@ -1,0 +1,114 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+   
+}
+body{
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+    background-color: whitesmoke;
+ 
+}
+header{
+    width: 100%;
+    height: 80px;
+    position: static;
+    top: 0;
+    background-color: rgb(18, 34, 120);
+}
+nav ul{
+	float: right;
+	padding:  10px 0}
+
+nav ul li{
+	display: inline-block;
+	width: 150px;
+	padding: 10px 0;
+}
+nav ul li a{
+	font-size: 20px;
+	font-family: arial;
+    color: white;}
+   
+    nav ul li a:hover{
+        color: orange;
+        font-weight: bold;
+    }
+/*                       the code above are all styles for hearder
+   for any clarification come here      */
+footer{
+    position: fixed;
+    margin-top: 50px;
+    background-color: rgb(12,103,240);
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    }
+    .social_Media{
+        padding: 70px 50px  0 50px;
+    }
+    .social_Media a{
+        width: 80px;
+        color: orange;
+        font-size: 22px;
+        display: block;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .social_Media a:hover{
+        color: white;
+        transition: 2s;
+    }
+    .copy{
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        position: relative;
+        bottom: 30px;
+    }
+    .links ul{
+        float: right;
+    }
+    .links ul li{
+        display: inline-block;
+        width: 100px;
+        padding: 40px 0;
+    }
+    .links ul li a{
+        color: white;
+        font-size: 20px;
+    }
+    .links ul li a:hover{
+        margin: 3px solid;
+    }
+
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+.container div{
+background-color: skyblue;
+padding: 20px;
+text-transform: lowercase;
+}
+div a{
+    font-size: 30px;
+    padding-right: 20px;
+    color: rgb(9, 9, 73);
+}
+div a  span{
+    text-transform: lowercase;
+    font-size: 17px;
+    padding-left: 20px;
+    color: white;
+}
+ #what{
+    color: green;
+}

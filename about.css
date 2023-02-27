@@ -1,0 +1,226 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+   
+}
+body{
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+    background-color: whitesmoke;
+ 
+}
+header{
+    width: 100%;
+    height: 80px;
+    position: static;
+    top: 0;
+    background-color: rgb(18, 34, 120);
+}
+nav ul{
+	float: right;
+	padding:  10px 0}
+
+nav ul li{
+	display: inline-block;
+	width: 150px;
+	padding: 10px 0;
+}
+nav ul li a{
+	font-size: 20px;
+	font-family: arial;
+    color: white;}
+   
+    nav ul li a:hover{
+        color: orange;
+        font-weight: bold;
+    }
+/*                       the code above are all styles for hearder
+   for any clarification come here      */
+footer{
+    position: relative;
+    margin-top: 50px;
+    background-color: rgb(12,103,240);
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    }
+    .social_Media{
+        padding: 70px 50px  0 50px;
+    }
+    .social_Media a{
+        width: 80px;
+        color: orange;
+        font-size: 22px;
+        display: block;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .social_Media a:hover{
+        color: white;
+        transition: 2s;
+    }
+    .copy{
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        position: relative;
+        bottom: 30px;
+    }
+    .links ul{
+        float: right;
+    }
+    .links ul li{
+        display: inline-block;
+        width: 100px;
+        padding: 40px 0;
+    }
+    .links ul li a{
+        color: white;
+        font-size: 20px;
+    }
+    .links ul li a:hover{
+        margin: 3px solid;
+    }
+/*                         the code above this line are all about footer section
+of my website any clarification don't hestate to come and check for better understanding*/
+.container{
+    height: 300px;
+   position: relative;
+   top: 20px;
+   padding: 20px;
+   margin: 20px 50px 50px 50px;
+   clear: inherit;
+}
+
+.container div{
+    display: block;
+    float: left;
+    position: relative;
+    
+}
+.profile{
+    position: relative;
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 20px;
+    border: 5px solid black;
+}
+.profile div{
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 20px;
+    padding: 0 10px;
+}
+.profile div span{
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 10px;
+}
+.bjbPhoto{
+border-radius: 50%;
+position: relative;
+left: 20px;
+}
+.expreiance{
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 20px;
+    font-size: 20px;
+    border: 5px solid black;
+    line-height: 30px;
+}
+dfn{
+    font-weight: bold;
+    opacity: 0.6;
+    font-style: normal;
+    font-family: serif;
+}
+.project{
+    position: relative;
+    top: 10px;
+    margin: 30px 20px;
+    text-align: center;
+    background-color: white;
+    padding: 20px 0;
+    border: 4px dashed magenta;
+    font-size: 18px;
+}
+.education{
+    margin: 30px 40px;
+    height: 120px;
+}
+
+.education div{
+    float: left;
+    margin-left: 20px;
+    border: 4px solid maroon;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+button{
+position: relative;
+padding: 5px 20px;
+background-color: rgb(53, 240, 53);
+border-radius: 4px;
+border: none;
+margin-left: 20px;
+top: 50px;
+font-size: 20px;
+animation-name: hire;
+animation-duration: 2s;
+animation-direction: alternate;
+animation-iteration-count: 1;
+}
+@keyframes hire{
+    from{left: 500px}
+    to{left: 0}
+}
+
+
+#ckeck{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+      background-color: lightblue;
+    }
+  
+  
+  .check a{
+      display: block;
+  }
+    
+   nav ul{
+      position: relative;
+      display: block;
+      top: 50px;
+      left: -100%;
+      float: left;
+     
+  }
+  nav ul li{
+      display: block;
+      margin-left: 30px;
+      
+  }
+  nav ul li a{
+      color: white;
+      font-size: 14px;
+      text-align: center;
+  }
+  #check:checked~ul{
+   
+      left: 0;
+      transition: all .5s
+  }
+  }
