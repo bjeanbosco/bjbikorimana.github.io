@@ -26,8 +26,9 @@ Tag.target="_blank";
 document.getElementById('piano').appendChild(Tag);
 Enroll.innerHTML="Enrolled"
   }
-  else{
+  else if(answer!="Piano"&&answer!="Coding"){
     document.getElementById('piano').innerHTML="We don't have course for you!";
+    return false;
   }
 
 }
